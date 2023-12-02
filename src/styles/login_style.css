@@ -1,0 +1,98 @@
+.chefe{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bg{
+    height:100vh;
+    background-image: linear-gradient(300deg, rgb(211, 66, 66), #a4242c, rgb(211, 66, 66));
+}
+
+.bsub{
+    border:none;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s ease;
+}
+
+.log_forma{
+    margin-top: 40px;
+    background-image: linear-gradient(300deg, rgb(149, 167, 177), lavender, rgb(149, 167, 177));
+    width:400px;
+    height:55vh;
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cad_forma{
+    margin-top: 40px;
+    background-image: linear-gradient(300deg, rgb(149, 167, 177), lavender, rgb(149, 167, 177));
+    width:600px;
+    height:90vh;
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+label{
+    padding-top: 30px;
+}
+@media(max-width:545px){
+    .log_forma{
+        width:355px;
+        
+    }
+    .form_cad{
+        flex-direction: column;
+        width: 100% 
+    }
+    .cad_forma{
+        height:100vh;
+        margin-top: 0px;
+    }
+}
+input {
+    border: 3px solid lavender;
+    border-radius: 20px;
+    height: 45px; 
+    margin-bottom: 15px; 
+    margin-left: 10px;
+    background-color: transparent;
+    
+}
+  
+input::placeholder {
+    padding-left: 10px;
+}
+.form_cad{
+    display: flex;
+}
+
+
+.btext{
+    border:none;
+    background: transparent;
+    
+    transition: 0.1s ease;
+}
+
+.btext:hover{
+    text-decoration: underline;
+}
+
+.bsub {
+    border: none;
+    border-radius: 20px;
+    height: 45px; /* Ajustei a altura para combinar com a altura dos inputs */
+    transition: 0.3s ease;
+    padding: 0 20px; /* Adicionei padding para melhor aparência */
+  }
+.bsub:hover{
+    background-color: #a4242c;
+    color:white;
+}
+
+
+

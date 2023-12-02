@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Fugaz+One&family=Lobster&display=swap');
+.cat_title{
+    margin-top: 90px;
+    padding-top: 6vh;
+    height:10vh;
+    text-align: center;
+    color:#a4242c;
+    font-family: sans-serif;
+    font-size:large;
+    margin-bottom: 40px;
+}
+
+.cat_icon{
+
+    width:100px;
+    height:100px;
+    border-radius:100px;
+
+}
+
+.linke{
+
+    text-decoration: none;
+    color: black;
+   
+}
+.images{
+    
+    padding-top: 40px;
+
+}
+
+.carogan{
+    margin-top:95px;
+    background: #d1d1d1;
+    border-radius: 20px;
+
+}   
+
+.carousel_images{
+
+    width:400px !important;
+    height:400px !important;
+    border-radius:20px;
+
+}
+.slide{
+
+    padding:20px
+}
+
+@media (max-width: 768px) {
+    .cat_icon {
+        width:70px;
+        height:70px;
+    }
+    .carousel_images{
+        width:200px !important;
+        height:200px !important	;
+    }
+    .cat_title{
+        margin-top: 0px;
+        padding-bottom: 0px;
+    }
+    .title{
+        font-size: large;
+    }
+
+}
+
+@media(max-width: 507px){
+    .botao{
+        margin-top:14px!important;
+        width:63px !important;   
+        height: 47px!important;
+    }
+    .data{
+
+        padding-left: 20px!important;
+    }
+    .dinfo{
+        width:120px !important;  
+    }
+    .tinfo{
+        width:120px !important; 
+    }
+    .carousel_images{
+        width:150px !important;
+        height:150px !important	;
+    }
+    .title{
+        font-size:medium !important;
+    }
+    .desc{
+        font-size: smaller !important;
+    }
+    .carrossel{
+        margin-right: 0px !important;
+    }
+}
+@media (max-height: 896px) {
+    .buxa{
+        height:9vh !important;
+       
+    }
+    .carogan{
+        margin-top: 45px !important;
+    }
+}
+
+
+.title{
+    
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.desc{
+    font-size: medium;
+}
+ 
+.end_bar{
+
+    height:70px;
+    background: #a4242c;
+    text-align:start ;
+    
+}
+
+.carrossel{
+    margin-left: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.data{
+    display: flex!important;
+    height:35%;
+    width:300px;
+    padding-left: 50px;
+
+}
+.botao{
+    
+    border:none !important;
+    height:50px ;
+    width:80px ;
+    border-radius:50px !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.3s ease;
+}
+
+.menu_botao{
+    background-color: #a4242c !important;
+}
+.menu_botao:hover{
+    background-color: #c50b18!important;
+}
+.dinfo{
+    margin-top: 10px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tinfo{
+    
+    width:190px ; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.icon_buy{
+   width : 20px;
+  
+}
+.text{
+    padding-top: 13px;
+    color:#a4242c
+}
+
+.texto{
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+.buxa{
+
+    height:11vh;
+}
+
+.div_perfil{
+    height:10vh;
+    margin-top:50px;
+    margin-left:50px;
+    display: flex;
+    align-items: center;
+}
+
+.aga1{
+    font-size: 2rem;
+}
+
+
+@media (max-width: 768px) {
+    .aga1 {
+      font-size: 1.5rem;
+    }
+  
+    .texto {
+      font-size: 1rem;
+    }
+  }
+
+
+
+.close{
+    background: rgb(247, 247, 247) !important;
+    transition: 0.3s ease;
+}
+.close:hover{
+    background: #d9d9d9 !important;
+}
+
+.setValue{
+    margin:10px;
+    border:none;
+    background: #a4242c;
+    border-radius:20px;
+    width:25px;
+    color:white;
+}
+.topic{
+    font-family: Caveat;
+}
+
+.pew{
+    border:none;
+    border-radius:20px;
+    color:white;
+    height:6vh;
+    width:200px;
+    margin-top: 20px;
+}
+
+.menu_item{
+    padding-top: 40px;
+}
+
+.orderBase{
+    margin-top: 30px;
+}
+
+.editar{
+    width: 340px;
+    height:7vh;
+    border:none;
+    color:white;
+    background: #a4242c;
+    border-radius:20px;
+    transition: 0.3s ease;
+}
+
+.editar:hover{
+    background: #cb2d3b;
+}
+.struct{
+    justify-content: start;
+}
+.ecid{
+    
+    justify-content:space-between;
+}
+
+.topper{
+    border:3px solid #cb2d3b;
+    border-radius:20px;
+    width: 500px;
+    margin-top:25px;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+@media(max-width:567px){
+    .topper{
+        width: 350px;
+        margin-left: 10px;
+    }
+}
+.icon{
+    width:30px;
+}
+.config{
+ 
+    cursor:pointer;
+    padding-top: 5px;
+    border:none;
+    background: transparent;
+    
+}
+

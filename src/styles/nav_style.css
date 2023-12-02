@@ -1,0 +1,125 @@
+.navi{
+    background-color: 
+    #f0f4f4;
+    align-content: center;
+    height:20vh;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .medium-screen-hidden {
+        display: none;
+    }
+}
+.medium-screen-hidden{
+    align-items: center;
+    
+}
+
+.canva{
+    height:25px;
+    
+}
+
+.user_photo{
+
+    width:50px;
+}
+
+.imagelogo{
+
+    height:15vh;
+    margin-left: 30px;
+    margin-top:27px;
+}
+
+.minha-coluna{
+    height:15vh;
+    background-color: #f0f4f4;
+    align-items: center;
+}
+
+.buttonn{
+    margin-top:27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f4f4;
+    transition: background-color 0.3s ease;
+    border-radius: 50px;
+    border:none;
+    width:5vw;
+    height:9vh
+}
+
+
+.buttonn:hover {
+    background-color: #390d0d25; /* Altera a cor de fundo ao passar o mouse */
+}
+
+.offcanvas-header{
+    height:25%;
+    background-color: 
+    #a4242c;
+}
+
+.offcanvas-bar{
+
+    background-color: #a4242c;
+}
+
+.offcanvas-body{
+    background-color: #f0f4f4;
+}
+.icons_bar{
+
+    width:30px;
+    height: 30px;
+
+}
+.tag_text{
+
+    margin: 20px;
+    text-decoration: underline #f0f4f4;
+    color:black;
+
+}
+
+.userpage{
+
+    padding-top: 10px;
+    margin-top:5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    align-items: center;
+    transition: 0.3s ease;
+    border:none;
+    width:340px
+}
+
+.userpage:hover{
+
+    background: #d1d1d1;
+}
+
+.beke{
+    padding-top: 30px;
+    width:45px;
+} 
+
+.tiles{
+    padding-top: 35px;
+    padding-right: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu_images{
+    height:200px;
+    width: 200px;
+}
+
+.all{
+    margin-top:40px;
+
+}
+
